@@ -1,4 +1,72 @@
-.header{
+
+/*<=== Classes ===>*/
+*
+{
+    box-sizing: border-box;
+}
+
+.header
+{
     color: #4aaaa5;
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about_content
+{
+    width: 960px;
+}
+.content
+{
+    float: left;
+    width: 33.33%;
+    border: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.clearfix::after
+{
+    content:"";
+    clear: both;
+    display: table;
+}
+/*<=== Classes ===>*/
+
+/*<=== IDs ===>*/
+#middle
+{
+    float:left;
+    width: 33.33%;
+    background:#666666;
+
+
+}
+
+#left
+{
+    float: left;
+    width: 33.33%;
+    background: red;
+    clear: right;
+}
+
+#right
+{
+    float: left;
+    width: 33.33%;
+    background: blue;
+
+}
+
+/*<=== HTML Tags ===>*/
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+P
+{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
 }

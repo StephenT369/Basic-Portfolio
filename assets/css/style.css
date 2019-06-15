@@ -16,6 +16,7 @@
       border: 1px solid #dddddd;
       margin-top: 30px;
       margin-bottom: 30px;
+      background-color: #ffffff;
   }
   .content
   {
@@ -38,6 +39,7 @@
       float: right;
       padding-top: 25px;
       padding-bottom: 25px;
+      padding-right: 5px;
 
   }
 
@@ -49,7 +51,7 @@
   }
   .menu
   {
-    height: 75px; 
+    height: 70px; 
     border-bottom: 1px solid #cccccc;
 }
 
@@ -92,4 +94,9 @@
 header
 {
     background-color: #ffffff;
+}
+
+body
+{
+    background-image: url("../images/beige-tiles.png")
 }

@@ -75,6 +75,13 @@
     margin-bottom: 25px;
 }
 
+.art_pics
+{
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
 .text
 {
     margin-left: 25px;
@@ -100,3 +107,15 @@ body
 {
     background-image: url("../images/beige-tiles.png")
 }
+
+input[type=text], [type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 25px;
+    margin-right: 25px;
+  }

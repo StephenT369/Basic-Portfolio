@@ -1,72 +1,95 @@
-
 /*<=== Classes ===>*/
-*
+*, *::after
 {
     box-sizing: border-box;
 }
 
-.header
+.pro_contain {
+    margin: 0 auto;
+    width: 960px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .mainsection
+  {
+      border: 1px solid #dddddd;
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+  .content
+  {
+  
+
+
+  }
+  .name
+  {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background: #4aaaa5;
+      padding: 25px;
+     
+      color: #ffffff;
+      float: left;
+  }
+  
+  .menu_options
+  {
+      float: right;
+      padding-top: 25px;
+      padding-bottom: 25px;
+
+  }
+
+  .footer
+  {
+      background: #666666;
+      height: 50px;
+      border-top: 7px solid #4aaaa5;
+  }
+  .menu
+  {
+    height: 75px; 
+    border-bottom: 1px solid #cccccc;
+}
+
+.about_header
 {
     color: #4aaaa5;
+    background-color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #cccccc;
 }
-
-.about_content
-{
-    width: 960px;
-}
-.content
+.profile_pic
 {
     float: left;
-    width: 33.33%;
-    border: 10px;
-    padding: 10px;
-    margin: 10px;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-bottom: 25px;
 }
 
+.text
+{
+    margin-left: 25px;
+    margin-right: 25px;
+}
 .clearfix::after
 {
-    content:"";
+    content:" ";
+    display: block;
     clear: both;
-    display: table;
 }
 /*<=== Classes ===>*/
 
 /*<=== IDs ===>*/
-#middle
-{
-    float:left;
-    width: 33.33%;
-    background:#666666;
-
-
-}
-
-#left
-{
-    float: left;
-    width: 33.33%;
-    background: red;
-    clear: right;
-}
-
-#right
-{
-    float: left;
-    width: 33.33%;
-    background: blue;
-
-}
 
 /*<=== HTML Tags ===>*/
-body
+header
 {
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-P
-{
-    color: #777777;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
 }

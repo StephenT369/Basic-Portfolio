@@ -93,6 +93,26 @@
     display: block;
     clear: both;
 }
+
+.labels
+{
+    float: left;
+    margin-left: 25px;
+    padding-top: 25px;
+
+}
+
+.submit
+{
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #ffffff;
+    padding: 5px;
+}
 /*<=== Classes ===>*/
 
 /*<=== IDs ===>*/
@@ -109,13 +129,16 @@ body
 }
 
 input[type=text], [type=email] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    width: 900px;
+    
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-left: 25px;
-    margin-right: 25px;
+    float: left;
   }

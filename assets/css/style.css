@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.top_contain
+{
+    margin: 0 auto;
+    width: 960px;
+
+}
 .pro_contain {
     margin: 0 auto;
     width: 960px;
@@ -117,7 +123,11 @@
 /*<=== Classes ===>*/
 
 /*<=== IDs ===>*/
-
+#message
+{
+    height: 250px;
+    text-align: justify;
+}
 /*<=== HTML Tags ===>*/
 header
 {

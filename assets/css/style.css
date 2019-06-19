@@ -125,7 +125,8 @@ header
 
 body
 {
-    background-image: url("../images/beige-tiles.png")
+    background-image: url("../images/beige-tiles.png");
+    margin: 0px;
 }
 
 input[type=text], [type=email] {
